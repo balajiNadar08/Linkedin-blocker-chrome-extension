@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Switch from "@mui/material/Switch";
+import githubIcon from "./assets/githubIcon.png";
 import "./App.css";
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
       </div>
 
       <div className="footer">
+        <a href="https://github.com/balajiNadar08/Linkedin-blocker-chrome-extension" target="_blank">
+          <img src={githubIcon} alt="GitHub Icon" />
+        </a>
         <span>v1.0.0</span>
       </div>
     </div>
